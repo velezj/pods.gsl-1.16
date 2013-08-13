@@ -83,6 +83,7 @@ install-source:
 
 pkgconfig-source:
 	@echo "\n Creating pkg-config files for $(POD_NAME) \n"
+	@cp $(BUILD_PREFIX)/lib/pkgconfig/gsl.pc $(BUILD_PREFIX)/lib/pkgconfig/gsl-1.16.pc 
 	@touch pkgconfiged.touch
 
 
