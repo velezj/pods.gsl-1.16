@@ -1,6 +1,6 @@
 # pod Makefile created using pods-tools/create-configure-pod.sh
 
-FETCH_URL=http://gnu.spinellicreations.com/gsl/gsl-1.16.tar.gz
+FETCH_URL=ftp://ftp.gnu.org/gnu/gsl/gsl-1.16.tar.gz
 POD_NAME=gsl-1.16
 
 default_target: all
