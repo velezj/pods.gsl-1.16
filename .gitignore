@@ -1,0 +1,7 @@
+pod-build/
+*~
+*.touch
+*.tar.*
+gsl-1.16/
+
+
